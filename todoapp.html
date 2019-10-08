@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>to-do list app</title>
+    <link rel="stylesheet" href="todoapp.css">
+  </head>
+  <body>
+    <header>
+      <h1>to-do</h1>
+      <h3>type what you need to do, press "add", then click the item to check it off when you're done.</h3>
+    </header>
+    <section id="inputs">
+      <input type="text" id="todoItem" placeholder="what to do?" required>
+      <button id="theAddButton" type="button" name="enter">add</button>
+    </section>
+    <section id="outputs">
+      <ul id="theList">
+        <li><span class="todo">example to-do</span><span class="del">delete?</span></li>
+      </ul>
+    </section>
+
+    <script src="todoapp.js" charset="utf-8"></script>
+  </body>
+</html>
